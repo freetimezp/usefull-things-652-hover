@@ -1,18 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project</title>
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Anton&display=block"
+        />
 
-<body>
-    start
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Project</title>
+    </head>
 
-    <script src="./assets/js/main.js"></script>
-</body>
+    <body>
+        <canvas class="photo"></canvas>
 
+        <div class="lines">
+            <span></span><span></span><span></span><span></span><span></span
+            ><span></span><span></span>
+        </div>
+
+        <main class="hero">
+            <div class="stats">
+                <div>
+                    <p class="number big reveal">48</p>
+                    <p class="label reveal">Painted portraits</p>
+                </div>
+                <div>
+                    <p class="number big reveal">12</p>
+                    <p class="label reveal">Cities toured</p>
+                </div>
+                <div>
+                    <p class="number big reveal">6</p>
+                    <p class="label reveal">Solo shows</p>
+                </div>
+            </div>
+
+            <div class="facts">
+                <p class="quote reveal">
+                    Paint stays quiet until the light finds it.
+                </p>
+                <div>
+                    <p class="bold reveal">Mexico City</p>
+                    <p class="reveal">Mexico</p>
+                </div>
+                <div>
+                    <p class="bold reveal">UV paint</p>
+                    <p class="reveal">On skin and canvas</p>
+                </div>
+                <div>
+                    <p class="bold reveal">9+</p>
+                    <p class="reveal">Years painting</p>
+                </div>
+            </div>
+
+            <div class="intro">
+                <h1 class="name big reveal">Luz Moreno</h1>
+                <p class="bio reveal">
+                    I paint people with light. Under ultraviolet every
+                    brushstroke wakes up, and for one night a body becomes a
+                    canvas that glows.
+                </p>
+            </div>
+
+            <div class="next">
+                <p class="label reveal">Next show</p>
+                <p class="number big reveal">Nov 21</p>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
